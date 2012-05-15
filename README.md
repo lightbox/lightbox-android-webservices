@@ -8,7 +8,8 @@ The framework is base on automatic mapping. his means that you'll need to write 
 But it's actually more than that, since it also allows you to display images from the network, easily get the location, perform background task, and contains others useful utilities classes.
 
 ## Demo application
-To understand how the framework works, the best solution is to have a look at the demo application "Tweets Nearby". This little application will display the tweets arround you, and also let you search for a foursquare place to display the twwets arround somewhere else.
+To understand how the framework works, the best solution is to have a look at the demo application **Tweets Nearby**. This little application will display the tweets arround you, and also let you search for a foursquare place to display the tweets arround somewhere else.
 
+![Tweets Nearby Icon](https://github.com/lightbox/lightbox-android-webservices/blob/master/TweetsNearbyDemo/res/drawable-hdpi/ic_launcher.png?raw=true)
 
-![Tweets Nearby Screenshot](http://todo)
+![Tweets Nearby Screenshot](https://github.com/lightbox/lightbox-android-webservices/blob/master/tweets-neraby-screenshot.png?raw=true)
