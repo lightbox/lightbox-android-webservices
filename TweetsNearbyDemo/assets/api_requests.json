@@ -1,0 +1,30 @@
+{
+    "api_requests" : {
+
+        "twitter_search_api_request_base" : {
+            "base_url" : "http://search.twitter.com",
+            "processor_class" : "com.lightbox.android.webservices.processors.JacksonProcessor"
+        },
+                
+        "foursquare_api_request_base" : {
+            "base_url" : "https://api.foursquare.com/v2",
+            "processor_class" : "com.lightbox.android.webservices.processors.JacksonProcessor"
+        },
+
+        "searchTwitter" : {
+            "use" : "twitter_search_api_request_base",
+            "path" : "/search.json",
+            "http_method" : "GET",
+            "response_class" : "com.lightbox.tweetsnearby.responses.twitter.TweetListResponse"
+        },
+        
+        "getFoursquarePlaces" : {
+            "use" : "foursquare_api_request_base",
+            "path" : "/venues/search",
+            "http_method" : "GET",
+            "response_class" : "com.lightbox.tweetsnearby.responses.foursquare.VenueListResponse"
+        }
+    }
+
+
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <com.lightbox.android.views.RemoteThumbImageView
+        android:id="@+id/remoteImageViewProfile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textViewTweet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:autoLink="all"
+        android:textColor="@android:color/black"
+        android:text="" />
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#EEE">
+
+        <EditText
+            android:id="@+id/editTextSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Search for a place" />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:onClick="onOkButtonClicked"
+            android:text="OK" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Tweets around you:"
+        android:textColor="@android:color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@android:color/black"
+        android:shadowRadius="1"
+        android:textSize="18sp"
+        android:background="#EEE"/>
+    
+    <FrameLayout 
+        android:background="#DDD"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"></FrameLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </ListView>
+
+</LinearLayout>
