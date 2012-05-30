@@ -9,5 +9,7 @@
 	<classpathentry kind="src" path="gen"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="libs/concurrentlinkedhashmap-lru-1.2_jdk5.jar"/>
+	<classpathentry kind="lib" path="libs/ormlite-android-4.32.jar"/>
+	<classpathentry kind="lib" path="libs/ormlite-core-4.32.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
